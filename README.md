@@ -5,7 +5,7 @@
     <h1 align="center">CALCULUS-STATS</h1>
 </p>
 <p align="center">
-    <em><code>► INSERT-TEXT-HERE</code></em>
+    <em><code>A comprehensive web application for solving and visualizing calculus and statistics problems. Simplify your calculations and enhance your understanding with intuitive tools and interactive visualizations.</code></em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/LofoMarin/Calculus-Stats?style=flat&color=0080ff" alt="license">
@@ -47,16 +47,22 @@
 
 ## 📍 Overview
 
-<code> NRC: 
+NRC: 
 Luis Marin - 200097059
 Kevin Ruiz - 200166261
 Santiago Carval - 200152335
 Yordi Gonzales - 200166406
+
 ---
 
 ## 📦 Features
 
-<code>► INSERT-TEXT-HERE</code>
+- **Comprehensive Calculators:** Provides tools for derivatives, integrals, and various calculus problems.
+- **Interactive Graphs:** Visualize functions and data with interactive charts.
+- **Statistical Analysis:** Perform statistical calculations including mean, median, mode, and standard deviation.
+- **User-Friendly Interface:** Intuitive design for easy navigation and use.
+- **Customization Options:** Tailor the application to suit your specific needs.
+- **Offline Capability:** Use the application without an internet connection.
 
 ---
 
@@ -170,216 +176,41 @@ Yordi Gonzales - 200166406
         │   │   │   ├── Temperature.jsx
         │   │   │   ├── Volume.jsx
         │   │   │   └── Weight.jsx
-        │   │   └── estimators
-        │   │       ├── PaintQuantity.jsx
-        │   │       ├── SteelWeight.jsx
-        │   │       └── TileQuantity.jsx
-        │   ├── letsStart.gif
-        │   ├── manual.css
-        │   └── myfav.jpg
+        │   │   ├── estimate
+        │   │   │   ├── BmiCalc.jsx
+        │   │   │   ├── BodyFatCalc.jsx
+        │   │   │   ├── CalorieCalc.jsx
+        │   │   │   ├── LoanCalc.jsx
+        │   │   │   └── TaxCalc.jsx
+        │   │   ├── homeModule
+        │   │   └── more
+        │   │       ├── AboutUs.jsx
+        │   │       ├── Blog.jsx
+        │   │       └── ContactUs.jsx
+        │   ├── history.css
+        │   ├── notebook.css
+        │   ├── page.css
+        │   └── welcomePages
+        │       ├── About.js
+        │       ├── Contact.js
+        │       └── Info.js
         ├── reportWebVitals.js
+        ├── serviceWorker.js
         └── setupTests.js
 ```
 
----
-
 ## 🧩 Modules
 
-<details closed><summary>.</summary>
+### Cálculus
+- **Derivatives**: Calculates derivatives of algebraic and transcendental functions.
+- **Integrals**: Solve definite and indefinite integrals.
+- **Limits**: Determine limits of functions at specific points.
 
-| File                                                                                           | Summary                         |
-| ---                                                                                            | ---                             |
-| [package.json](https://github.com/LofoMarin/Calculus-Stats/blob/master/package.json)           | <code>► INSERT-TEXT-HERE</code> |
-| [package-lock.json](https://github.com/LofoMarin/Calculus-Stats/blob/master/package-lock.json) | <code>► INSERT-TEXT-HERE</code> |
+### Stadístics
+- **Measures of central tendency**: Calculates mean, median and mode.
+- **Measures of dispersion**: Calculates variance, standard deviation and range.
+- **Distributions**: Work with normal, binomial and Poisson distributions.
 
-</details>
-
-<details closed><summary>public</summary>
-
-| File                                                                                          | Summary                         |
-| ---                                                                                           | ---                             |
-| [index.html](https://github.com/LofoMarin/Calculus-Stats/blob/master/public/index.html)       | <code>► INSERT-TEXT-HERE</code> |
-| [main.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/public/main.js)             | <code>► INSERT-TEXT-HERE</code> |
-| [manifest.json](https://github.com/LofoMarin/Calculus-Stats/blob/master/public/manifest.json) | <code>► INSERT-TEXT-HERE</code> |
-| [robots.txt](https://github.com/LofoMarin/Calculus-Stats/blob/master/public/robots.txt)       | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>public.plugin</summary>
-
-| File                                                                                                         | Summary                         |
-| ---                                                                                                          | ---                             |
-| [Calculus.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/public/plugin/Calculus.js)             | <code>► INSERT-TEXT-HERE</code> |
-| [MathJax.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/public/plugin/MathJax.js)               | <code>► INSERT-TEXT-HERE</code> |
-| [bootstrap.min.css](https://github.com/LofoMarin/Calculus-Stats/blob/master/public/plugin/bootstrap.min.css) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src</summary>
-
-| File                                                                                                 | Summary                         |
-| ---                                                                                                  | ---                             |
-| [reportWebVitals.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/reportWebVitals.js) | <code>► INSERT-TEXT-HERE</code> |
-| [App.test.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/App.test.js)               | <code>► INSERT-TEXT-HERE</code> |
-| [setupTests.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/setupTests.js)           | <code>► INSERT-TEXT-HERE</code> |
-| [App.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/App.js)                         | <code>► INSERT-TEXT-HERE</code> |
-| [App.css](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/App.css)                       | <code>► INSERT-TEXT-HERE</code> |
-| [index.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/index.js)                     | <code>► INSERT-TEXT-HERE</code> |
-| [index.css](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/index.css)                   | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages</summary>
-
-| File                                                                                         | Summary                         |
-| ---                                                                                          | ---                             |
-| [History.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/History.js)   | <code>► INSERT-TEXT-HERE</code> |
-| [Notebook.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/Notebook.js) | <code>► INSERT-TEXT-HERE</code> |
-| [Welcom.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/Welcom.js)     | <code>► INSERT-TEXT-HERE</code> |
-| [Home.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/Home.js)         | <code>► INSERT-TEXT-HERE</code> |
-| [graphs.css](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/graphs.css)   | <code>► INSERT-TEXT-HERE</code> |
-| [Welcom.css](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/Welcom.css)   | <code>► INSERT-TEXT-HERE</code> |
-| [Theme.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/Theme.js)       | <code>► INSERT-TEXT-HERE</code> |
-| [manual.css](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/manual.css)   | <code>► INSERT-TEXT-HERE</code> |
-| [home.css](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/home.css)       | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages</summary>
-
-| File                                                                                                       | Summary                         |
-| ---                                                                                                        | ---                             |
-| [Calculator.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/Calculator.js) | <code>► INSERT-TEXT-HERE</code> |
-| [Estimators.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/Estimators.js) | <code>► INSERT-TEXT-HERE</code> |
-| [Converters.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/Converters.js) | <code>► INSERT-TEXT-HERE</code> |
-| [CheatSheat.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/CheatSheat.js) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.AllCalculators</summary>
-
-| File                                                                                                                  | Summary                         |
-| ---                                                                                                                   | ---                             |
-| [Calculus.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Calculus.js) | <code>► INSERT-TEXT-HERE</code> |
-| [Algebra.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Algebra.js)   | <code>► INSERT-TEXT-HERE</code> |
-| [Others.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Others.js)     | <code>► INSERT-TEXT-HERE</code> |
-| [State.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/State.js)       | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.AllCalculators.Others</summary>
-
-| File                                                                                                                                     | Summary                         |
-| ---                                                                                                                                      | ---                             |
-| [BMI.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Others/BMI.jsx)                     | <code>► INSERT-TEXT-HERE</code> |
-| [Percentage.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Others/Percentage.jsx)       | <code>► INSERT-TEXT-HERE</code> |
-| [AgeCalculator.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Others/AgeCalculator.jsx) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.AllCalculators.Algebra</summary>
-
-| File                                                                                                                                  | Summary                         |
-| ---                                                                                                                                   | ---                             |
-| [Quardratic.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Algebra/Quardratic.jsx)   | <code>► INSERT-TEXT-HERE</code> |
-| [Basic.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Algebra/Basic.jsx)             | <code>► INSERT-TEXT-HERE</code> |
-| [Simplify.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Algebra/Simplify.jsx)       | <code>► INSERT-TEXT-HERE</code> |
-| [Lcm.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Algebra/Lcm.jsx)                 | <code>► INSERT-TEXT-HERE</code> |
-| [PrimeFactor.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Algebra/PrimeFactor.jsx) | <code>► INSERT-TEXT-HERE</code> |
-| [SolveFor.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Algebra/SolveFor.jsx)       | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.AllCalculators.Calculus.derivatives</summary>
-
-| File                                                                                                                                                           | Summary                         |
-| ---                                                                                                                                                            | ---                             |
-| [Derivatives.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Calculus/derivatives/Derivatives.jsx)             | <code>► INSERT-TEXT-HERE</code> |
-| [HistoryDerivative.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Calculus/derivatives/HistoryDerivative.jsx) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.AllCalculators.Calculus.Integration</summary>
-
-| File                                                                                                                                                         | Summary                         |
-| ---                                                                                                                                                          | ---                             |
-| [HistoryOfIntegr.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Calculus/Integration/HistoryOfIntegr.jsx)   | <code>► INSERT-TEXT-HERE</code> |
-| [DefiniteIntegral.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Calculus/Integration/DefiniteIntegral.jsx) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.AllCalculators.Calculus.GraphsOfFunctions</summary>
-
-| File                                                                                                                                                                               | Summary                         |
-| ---                                                                                                                                                                                | ---                             |
-| [SlopeInterceptCalculator.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Calculus/GraphsOfFunctions/SlopeInterceptCalculator.jsx) | <code>► INSERT-TEXT-HERE</code> |
-| [HistoryOfGraph.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Calculus/GraphsOfFunctions/HistoryOfGraph.jsx)                     | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.AllCalculators.Calculus.Slope</summary>
-
-| File                                                                                                                                       | Summary                         |
-| ---                                                                                                                                        | ---                             |
-| [PointSlope.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Calculus/Slope/PointSlope.jsx) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.AllCalculators.Statistics</summary>
-
-| File                                                                                                                                                 | Summary                         |
-| ---                                                                                                                                                  | ---                             |
-| [StandardDeviation.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/StandardDeviation.jsx) | <code>► INSERT-TEXT-HERE</code> |
-| [QuardraticMean.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/QuardraticMean.jsx)       | <code>► INSERT-TEXT-HERE</code> |
-| [HistoryMode.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/HistoryMode.jsx)             | <code>► INSERT-TEXT-HERE</code> |
-| [HistoryVarience.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/HistoryVarience.jsx)     | <code>► INSERT-TEXT-HERE</code> |
-| [Average.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/Average.jsx)                     | <code>► INSERT-TEXT-HERE</code> |
-| [HistoryAverage.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/HistoryAverage.jsx)       | <code>► INSERT-TEXT-HERE</code> |
-| [Varience.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/Varience.jsx)                   | <code>► INSERT-TEXT-HERE</code> |
-| [Median.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/Median.jsx)                       | <code>► INSERT-TEXT-HERE</code> |
-| [Mode.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/Mode.jsx)                           | <code>► INSERT-TEXT-HERE</code> |
-| [MeanHistory.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/MeanHistory.jsx)             | <code>► INSERT-TEXT-HERE</code> |
-| [HistoryGeomatric.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/HistoryGeomatric.jsx)   | <code>► INSERT-TEXT-HERE</code> |
-| [Mean.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/Mean.jsx)                           | <code>► INSERT-TEXT-HERE</code> |
-| [HistoryStandar.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/HistoryStandar.jsx)       | <code>► INSERT-TEXT-HERE</code> |
-| [GeometricMean.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/GeometricMean.jsx)         | <code>► INSERT-TEXT-HERE</code> |
-| [HistoryMedian.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/AllCalculators/Statistics/HistoryMedian.jsx)         | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.converters</summary>
-
-| File                                                                                                                      | Summary                         |
-| ---                                                                                                                       | ---                             |
-| [Weight.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/converters/Weight.jsx)           | <code>► INSERT-TEXT-HERE</code> |
-| [Length.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/converters/Length.jsx)           | <code>► INSERT-TEXT-HERE</code> |
-| [Area.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/converters/Area.jsx)               | <code>► INSERT-TEXT-HERE</code> |
-| [Volume.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/converters/Volume.jsx)           | <code>► INSERT-TEXT-HERE</code> |
-| [Temperature.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/converters/Temperature.jsx) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.pages.homePages.estimators</summary>
-
-| File                                                                                                                          | Summary                         |
-| ---                                                                                                                           | ---                             |
-| [TileQuantity.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/estimators/TileQuantity.jsx)   | <code>► INSERT-TEXT-HERE</code> |
-| [SteelWeight.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/estimators/SteelWeight.jsx)     | <code>► INSERT-TEXT-HERE</code> |
-| [PaintQuantity.jsx](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/pages/homePages/estimators/PaintQuantity.jsx) | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
-<details closed><summary>src.components</summary>
-
-| File                                                                                            | Summary                         |
-| ---                                                                                             | ---                             |
-| [Icons.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/components/Icons.js)     | <code>► INSERT-TEXT-HERE</code> |
-| [NavBar.css](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/components/NavBar.css) | <code>► INSERT-TEXT-HERE</code> |
-| [NavBar.js](https://github.com/LofoMarin/Calculus-Stats/blob/master/src/components/NavBar.js)   | <code>► INSERT-TEXT-HERE</code> |
-
-</details>
-
----
 
 ## 🚀 Getting Started
 
@@ -406,7 +237,7 @@ cd Calculus-Stats
 3. Install the dependencies:
 
 ```sh
-npm install
+npm install -r
 ```
 
 ### 🤖 Running Calculus-Stats
@@ -414,7 +245,7 @@ npm install
 Use the following command to run Calculus-Stats:
 
 ```sh
-node app.js
+npm start
 ```
 
 ### 🧪 Tests
@@ -425,15 +256,6 @@ To execute tests, run:
 npm test
 ```
 
----
-
-## 🛠 Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
-
----
 
 ## 🤝 Contributing
 
