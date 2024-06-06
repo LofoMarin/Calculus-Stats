@@ -47,8 +47,11 @@
 
 ## 📍 Overview
 
-<code>► INSERT-TEXT-HERE</code>
-
+<code> NRC: 
+Luis Marin - 200097059
+Kevin Ruiz - 200166261
+Santiago Carval - 200152335
+Yordi Gonzales - 200166406
 ---
 
 ## 📦 Features
