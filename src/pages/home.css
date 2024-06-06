@@ -32,95 +32,78 @@ button:hover {
 /* Calculator Styles */
 .main_container {
   width: 100%;
-  color: aliceblue;
+  color: #ffffff; /* Cambio de color de texto a blanco */
   display: flex;
-  justify-content: right;
-  align-items: center;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center; /* Centrado vertical */
   flex-wrap: wrap;
   margin: auto;
 }
 
 .tools {
-  padding: 20px 25px 10px 25px;
-  width: 120px;
-  height: 120px;
-  border: 1px solid green;
-  background-color: rgb(6, 118, 133);
-  border-radius: 12px;
-  display: block;
-  color: rgb(241, 207, 142);
+  padding: 30px; /* Aumento del padding */
+  width: 150px; /* Aumento del ancho */
+  height: 150px; /* Aumento de la altura */
+  border: 2px solid #8d8d8d; /* Cambio de color del borde a verde */
+  background-color: #222222; /* Cambio de color de fondo a gris oscuro */
+  border-radius: 40%; /* Cambio a borde redondeado */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  margin-bottom: 15px;
-  font-size: 18px;
+  margin: 15px;
+  font-size: 24px; /* Aumento del tamaño de fuente */
   font-weight: bold;
-  
+  color: #000000; /* Cambio de color del texto a verde */
+  transition: all 0.3s ease-in-out; /* Transición suave */
 }
 
-.tools:hover{
-  color: #ffdd40;
-  outline: 5px groove #ffdd40;
+.tools:hover {
+  transform: scale(1.1); /* Escala al hacer hover */
+  background-color: #000000; /* Cambio de color de fondo al hacer hover */
+  box-shadow: 0 0 20px #000000, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff; /* Efecto de neón firme */
 }
+
 .box {
-  flex: 1 1 5%;
-  text-align: center;;
-  transition: all 0.3s ease-in;         
-  .image{
-    transition: all 0.3s ease-in-out 0.1s;
-    img{
-      max-width: 45px;
-      object-fit: cover;
-    }
-  }
+  text-align: center;
+}
 
-  .title{
-    margin-top: 10px;
-    text-align: center;
-    font-weight: bold;
-    color: #ffdd40;
-    transition: all 0.3s ease-in-out;
-  }
+.image img {
+  max-width: 80px; /* Ajuste del tamaño máximo de la imagen */
+  object-fit: contain; /* Ajuste del ajuste del objeto */
+}
 
-  &:hover {
-    transform: scale(1.1);
+.title {
+  margin-top: 20px; /* Aumento del margen superior */
+  font-weight: bold;
+  color: #ffffff; /* Cambio de color del título a verde */
+  transition: all 0.3s ease-in-out;
+}
 
-    .image{
-      transform: scale(1.5) translateY(-15px);
-      img{
-        animation: bouncing 0.5s .3s; 
-      }          
-    }
-    .title{
-      letter-spacing: 2px;
-    }
-  }
-
-  @media(max-width:1100px) {
-    flex: 1 0 25%;
-  }
-  @media(max-width:630px) {
-    flex: 1 0 35%;
-    .image {
-
-      img{
-        max-width: 70px;
-      }
-    }
+@media(max-width: 1100px) {
+  .tools {
+    width: 120px; /* Ajuste de tamaño en pantalla más pequeña */
+    height: 120px;
+    font-size: 18px; /* Ajuste de tamaño de fuente en pantalla más pequeña */
   }
 }
 
+@media(max-width: 630px) {
+  .tools {
+    width: 100px; /* Ajuste de tamaño en pantalla aún más pequeña */
+    height: 100px;
+    font-size: 16px; /* Ajuste de tamaño de fuente en pantalla aún más pequeña */
+  }
 
-
-
-
-
-
-
-
+  .image img {
+    max-width: 60px; /* Ajuste del tamaño máximo de la imagen en pantallas pequeñas */
+  }
+}
 
 .form_page {
-  border: 2px solid green;
+  border: 2px solid rgb(124, 124, 124);
   width: 80%;
-  background-color: rgba(100, 170, 60, 0.575);
+  background-color: rgba(0, 0, 0, 0.575);
   padding: 30px;
   display: flex;
   flex-flow: column wrap;
@@ -132,7 +115,7 @@ button:hover {
 select{
   padding: 15px;
   border-radius: 10px;
-  border: 2px solid green;
+  border: 2px solid rgb(138, 138, 138);
   font-size: 20px;
   margin: 15px;
   display: flex;
@@ -142,7 +125,7 @@ input,
   width: 80%;
   padding: 15px;
   border-radius: 10px;
-  border: 2px solid green;
+  border: 2px solid rgb(104, 104, 104);
   font-size: 20px;
   margin: 15px;
   display: flex;

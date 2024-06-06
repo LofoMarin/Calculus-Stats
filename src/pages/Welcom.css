@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    /* Fondo oscuro */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.LogoText h1 {
+    font-family: 'Inter', sans-serif;
+    /* Tipografía Inter para el título */
+    color: #ffffff;
+    font-size: 6rem;
+    margin: 10px;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
+    /* Efecto de neón rojo */
+}
+
+.LogoText p {
+    color: #ffffff;
+    font-size: 2rem;
+    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #ff0000;
+    margin: 10px;
+}
+
+button {
+    background-color: transparent;
+    border-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.linkWrap {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.linkWrap:hover .letsStart {
+    color: #ff0000;
+    /* Color neón */
+}
+
+.linkWrap:hover svg {
+    stroke: #ff0000;
+    /* Color neón */
+}
+
+.letsStart {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    padding-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.style-4 svg {
+    vertical-align: middle;
+    display: inline-block;
+    width: 26px;
+    height: 40px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1px;
+    stroke: #ffffff;
+    stroke-dasharray: 7.95 30;
+    stroke-dashoffset: 46;
+    transition: stroke-dashoffset 0.3s cubic-bezier(0.3, 1.5, 0.5, 1) 0.195s;
+}
+
+.style-4:hover svg {
+    stroke-dashoffset: 26;
+}

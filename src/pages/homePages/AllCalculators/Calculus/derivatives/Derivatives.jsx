@@ -127,7 +127,7 @@ function Derivatives() {
         />
         &nbsp;
         <div>
-          <button onClick={calculateDerivative}>Go!</button>
+          <button onClick={calculateDerivative}>Calculate!</button>
           &nbsp;
           <button onClick={resetInputs}>Reset</button>
         </div>

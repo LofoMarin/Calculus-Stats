@@ -1,9 +1,9 @@
 {
-  "name": "staculus-gebra",
+  "name": "calculus-stats",
   "main": "public/main.js",
   "author": {
-    "email": "bilalbaqar5717@gmail.com",
-    "name": "Muhammad Bilal"
+    "email": "luifer2503@hotmail.com",
+    "name": "Luis Marin"
   },
   "version": "0.1.0",
   "private": true,
@@ -39,7 +39,7 @@
   },
   "scripts": {
     "start": "react-scripts start electron",
-    "package-win": "electron-packager . staculus-gebra  --overwrite --asar=true --platform=x64 --all --arch=x64 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='staculus-gebra'",
+    "package-win": "electron-packager . calculus-stats  --overwrite --asar=true --platform=x64 --all --arch=x64 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='calculus-stats'",
     "build": "react-scripts build electron-builder",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -73,7 +73,7 @@
   },
   "build": {
     "appId": "com.example.myapp",
-    "productName": "Staculus-gebra",
+    "productName": "calculus-stats",
     "directories": {
       "output": "dist"
     },
