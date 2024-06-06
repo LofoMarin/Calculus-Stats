@@ -1,0 +1,23 @@
+.manual-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.manual-title {
+    color: #333;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #666;
+}
+
+p {
+    color: #444;
+}

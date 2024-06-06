@@ -60,7 +60,7 @@ button:hover {
 
 .tools:hover {
   transform: scale(1.1); /* Escala al hacer hover */
-  background-color: #000000; /* Cambio de color de fondo al hacer hover */
+  background-color: #333333; /* Cambio de color de fondo al hacer hover */
   box-shadow: 0 0 20px #000000, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff; /* Efecto de neón firme */
 }
 
@@ -71,6 +71,7 @@ button:hover {
 .image img {
   max-width: 80px; /* Ajuste del tamaño máximo de la imagen */
   object-fit: contain; /* Ajuste del ajuste del objeto */
+  color: #ffffff; /* Cambio de color de la imagen a verde */
 }
 
 .title {
